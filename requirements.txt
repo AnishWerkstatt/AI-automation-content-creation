@@ -16,3 +16,4 @@ Pillow==9.5.0
 
 # ✅ For MP3 to WAV conversion
 pydub
+python-dotenv

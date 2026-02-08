@@ -4,6 +4,9 @@ import datetime
 import time
 import traceback
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 from src.generator import (
     generate_curriculum,
     generate_lesson_content,

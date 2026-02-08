@@ -34,8 +34,15 @@ Make sure you have Python installed, then run:
 pip install -r requirements.txt
 
 
-3. **Configure YouTube API:**
-Follow the [YouTube API documentation](https://developers.google.com/youtube/v3) to set up your API credentials and update the necessary configurations in `uploader.py`.
+3. **Configure API Keys:**
+   Create a `.env` file in the project root and add your API keys:
+   ```text
+   GOOGLE_API_KEY=your_gemini_api_key
+   PEXELS_API_KEY=your_pexels_api_key
+   ```
+
+4. **Configure YouTube API:**
+   Follow the [YouTube API documentation](https://developers.google.com/youtube/v3) to set up your API credentials and update the necessary configurations in `src/uploader.py`.
 
 ## Usage
 
